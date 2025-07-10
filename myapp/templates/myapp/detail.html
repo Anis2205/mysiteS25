@@ -1,0 +1,9 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}{{book.title}} - Details{% endblock %}
+
+{% block body_block %}
+    <h2>{{book.title}}</h2>
+    <p><strong>Price:</strong> ${{book.price}}</p>
+    <p><strong>Publisher:</strong> {{book.publisher.name}}</p>
+{% endblock %}

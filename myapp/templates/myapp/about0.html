@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About eBook Website</title>
+</head>
+<body>
+    <h2>This is an eBook Website.</h2>
+    <!-- Hardcoded URL -->
+    <p><a href="/myapp/">Back to Main (hardcoded)</a></p>
+    <!-- URL namespacing -->
+    <p><a href="{% url 'myapp:index' %}">Back to Main (namespaced)</a></p>
+</body>

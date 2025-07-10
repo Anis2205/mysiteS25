@@ -1,0 +1,20 @@
+/* Default styles */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+}
+
+/* H1 tag styles */
+h1 {
+    color: #2c3e50;
+    font-size: 28px;
+    font-style: normal;
+    position: relative;
+}
+
+/* Required class */
+.hbar1 {
+    display: inline;
+    margin: 15px;
+}
